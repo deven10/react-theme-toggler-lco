@@ -10,13 +10,13 @@ const ThemeToggler = () => {
                setThemeMode(themeMode === "light" ? "dark" : "light")
             }
         }>
-            <span style={{
+           {/* <span style={{
                 textDecoration: "underline",
                 color: "#23C4ED",
                 padding: "20px 0px 0px 50px",
                 fontSize: "32px",
                 cursor: "pointer"
-            }}>{themeMode === "light" ? "Turn on Dark Theme" : "Turn on Light Theme"}</span>
+            }}>{themeMode === "light" ? "Turn on Dark Theme" : "Turn on Light Theme"}</span> */}
         </div>
     )
 }
