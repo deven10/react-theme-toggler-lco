@@ -10,5 +10,5 @@ const AppColor = {
         border: "2px dashed #fff"
     }
 }
-// console.log(AppColor[1]);
+
 export default AppColor;

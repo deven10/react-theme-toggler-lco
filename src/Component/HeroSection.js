@@ -4,7 +4,6 @@ import AppColor from "../Color";
 
 const HeroSection = () => {
     const [themeMode, setThemeMode] = useContext(ThemeContext);
-    // const theme = useContext(ThemeContext)[0];
     const currentTheme = AppColor[themeMode];
 
     return(
