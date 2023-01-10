@@ -2,7 +2,7 @@ import './App.css';
 
 import React, {useState} from 'react';
 import ThemeContext from "./Context/ThemeContext";
-// import Header from "./Component/Header";
+import Header from "./Component/Header";
 import HeroSection from "./Component/HeroSection";
 
 
@@ -11,8 +11,8 @@ const App = () => {
  return(
   <ThemeContext.Provider value={themeHook}>
     <div>
-      {/* <Header /> */}
-      <h1>Theme Toggler</h1>
+      <Header />
+      {/* <h1>Theme Toggler</h1> */}
       <HeroSection />
     </div>
   </ThemeContext.Provider>
